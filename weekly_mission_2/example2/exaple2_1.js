@@ -11,16 +11,16 @@ const woopa_obj = {
 // crear clase
 
 class Ajolonauta{
-
+	constructor(name, mission, age, color){
+		this.name = name
+		this.mission = mission
+		this.age = age
+		this.color = color
+	}
 }
+const woopa_obj_js = {}
 
-console.log(Ajolonauta)
+console.log(woopa_obj_js)
 
-const woopa = new Ajolonauta()
-const wooper = new Ajolonauta()
-const woopy = new Ajolonauta()
-
+const woopa = new Ajolonauta ("Woopa", "Node JS","12","pink")
 console.log(woopa)
-console.log(wooper)
-console.log(woopy)
-
