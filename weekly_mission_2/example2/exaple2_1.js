@@ -1,3 +1,8 @@
+/*
+	C	
+*/
+
+
 console.log("POO")
 
 //obejto en js
